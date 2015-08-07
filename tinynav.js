@@ -37,7 +37,7 @@
 
         $nav
           .addClass('l_' + namespace_i)
-          .find('a')
+          .find('a:not(.no-tinynav)')
           .each(function () {
             options += '<option value="' + $(this).attr('href') + '">';
             var j;
